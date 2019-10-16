@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+p {
+	font-size: 20px;
+}
+
+#skip {
+	position: absolute;
+	left: 0;
+	top: -40px;
+	background: red;
+	color: white;
+	z-index: 9999;
+	padding: 10px;
+}
+
+#skip:focus {
+	top: 0;
+}
+.logo {
+	height: 100px;
+	background: rgb(230, 226, 170);
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+.nav {
+	height: 50px;
+	display: flex;
+	align-items: center;
+	background: #dadada;
+	justify-content: space-around;
+}
+.nav a {
+	font-size: 18px;
+}
+
+.banner {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	color: #fafafa;
+	background: blue;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-content {
+	width: 80%;
+}
+.aside {
+	width: 15%;
+}
+
+.footer {
+	background: #eaeaea;
+	height: 120px;
+	display: flex;
+	align-items: flex-end;
+	padding: 10px;
+}
